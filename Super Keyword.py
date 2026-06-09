@@ -12,6 +12,13 @@ class Phone:
 class SmartPhone(Phone):
     def buy(self):
         print("Buying a SmartPhone")
+        
+        """ for executing buy fn of Parent Class we use Super Keyword,if not buy fn of Child
+         Class will get executed"""
+         
+        super().buy()
 
 s=SmartPhone(40000,'Samsung',50)
 s.buy()
+
+

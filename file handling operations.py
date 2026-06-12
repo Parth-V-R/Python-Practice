@@ -15,6 +15,12 @@ f.writelines(L)
 f.close()
 
 # 'r' - read
+"""f=open('Samplefile1.txt','r')
+s=f.read()
+print(s)"""
+
+# readline
 f=open('Samplefile1.txt','r')
-s=f.read(8)
-print(s)
+print(f.readline())
+print(f.readline())
+f.close()
